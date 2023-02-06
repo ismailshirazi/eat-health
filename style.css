@@ -1,11 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+
 }
 
 h1 {
     font-size: 30px;
     margin-top: 100px;
+    font-weight: 700px;
 }
 
 p {
@@ -38,4 +40,38 @@ p {
     padding: 10px 30px;
     border-radius: 50px;
 
+}
+
+.about-me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.My-Recipies {
+    text-align: center;
+}
+
+.half-width-2 {
+
+    width: 50%;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.half-width-2 img {
+    width: 100%;
+}
+
+.span {
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.drop-dwon {
+    width: 80%;
+    padding: 0px 100px 50px 80px;
+    border-radius: 20px;
 }
